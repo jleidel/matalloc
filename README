@@ -1,0 +1,19 @@
+MATALLOC
+-------------------
+
+Eliciting the addressing differences between
+naive and efficient multi-dimensional allocations
+
+-------------------
+
+To build it, just type 'make'
+
+To run the different tests, type:
+
+$> ./2d.exe
+$> ./3d.exe
+
+To change the dimensions of the allocated matrices,
+edit the ./src/{2d,3d}.c source files and
+change the values of the {DIM_X,DIM_Y,DIM_Z} macros.
+
